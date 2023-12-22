@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            float: left;
+            margin: 10px;
+        }
+
+        p {
+            border: 1px solid salmon;
+        }
+
+        .box {
+            color: white;
+            font-weight: bold;
+            font-size: 50px;
+
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+        }
+        #box-1, #box-2 {
+            float: left;
+        }
+        #box-3, #box-4 {
+            float: right;
+        }
+        #box-1 {
+            background-color: red;
+        }
+        #box-2 {
+            background-color: orange;
+        }
+        #box-3 {
+            background-color: skyblue;
+        }
+        #box-4 {
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+<h1>float</h1>
+
+<h2>요소를 float 시키기</h2>
+
+    <div>
+        <img src="images/sample.jpg" width="80px" height="115px">
+        <p>다만 체감 기온은 바람이 불면서 이보다 더 낮겠다. 
+           서울 체감기온이 영하 21도, 인천 영하 22.7도, 강릉 20.8도로 20도까지 떨어지겠다. 
+           부산과 제주도도 체감기온이 각각 영하 13.2도, 영하 3.7도에 이르겠다.
+           다만 체감 기온은 바람이 불면서 이보다 더 낮겠다. 
+           서울 체감기온이 영하 21도, 인천 영하 22.7도, 강릉 20.8도로 20도까지 떨어지겠다. 
+           부산과 제주도도 체감기온이 각각 영하 13.2도, 영하 3.7도에 이르겠다.
+           다만 체감 기온은 바람이 불면서 이보다 더 낮겠다. 
+           서울 체감기온이 영하 21도, 인천 영하 22.7도, 강릉 20.8도로 20도까지 떨어지겠다. 
+           부산과 제주도도 체감기온이 각각 영하 13.2도, 영하 3.7도에 이르겠다.
+        </p>
+    </div>
+
+    <h2>float로 요소를 정렬시키기</h2>
+    <div class="container">
+        <div class="box" id="box-1">1</div>
+        <div class="box" id="box-2">2</div>
+        <div class="box" id="box-3">3</div>
+        <div class="box" id="box-4">4</div>
+    </div>
+</body>
+</html>
